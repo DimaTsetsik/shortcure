@@ -388,6 +388,10 @@ body::-webkit-scrollbar-thumb {
     margin-left: 25%;
 }
 
+.first-section .description {
+    margin-left: 0;
+}
+
 .base-section > div {
     position: relative;
 }
@@ -502,6 +506,10 @@ body::-webkit-scrollbar-thumb {
 .black-btn {
     background-color: #0c141d;
     color: #c4c9d0;
+}
+
+.mobile-element {
+    display: none;
 }
 
 @media screen and (max-width: 1550px) {
@@ -629,9 +637,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .mobile-element {
-        display: block
+        display: block;
     }
-
 
    .shortcute .title {
         font-size: 36px;
@@ -815,3 +822,5 @@ body::-webkit-scrollbar-thumb {
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 480px) { }
