@@ -385,11 +385,7 @@ body::-webkit-scrollbar-thumb {
     max-width: 460px;
     margin-top: 145px;
     position: relative;
-    margin-left: 25%;
-}
-
-.first-section .description {
-    margin-left: 0;
+    margin-left: -5%;
 }
 
 .base-section > div {
@@ -551,12 +547,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 1270px) {
+    .section-one .project-img {
+        transform: scale(1.1);
+    }
+
     .section-four .project-img {
         transform: scale(1.25);
     }
 
     .section-five .project-img {
         transform: scale(1.5);
+    }
+}
+
+@media screen and (max-width: 1120px) { 
+    .desctiption .text {
+        font-size: 32px;
     }
 }
 
@@ -622,7 +628,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 955px) {
     .desctiption .text {
-        font-size: 29px;
+        font-size: 24px;
     }
 }
 
@@ -680,8 +686,9 @@ body::-webkit-scrollbar-thumb {
     }
 
     .section-one .project-img {
-        margin-top: 2%;
+        margin-top: -2%;
         transform: scale(1);
+        height: 270px;
     }
 
     .section-four .project-img {
@@ -690,9 +697,11 @@ body::-webkit-scrollbar-thumb {
     }
 
     .section-five .project-img {
-        transform: scale(1.5);
+        transform: scale(1.05);
+        top: 5px;
+        position: relative;
     }
-
+    
     .desctiption .text {
         font-size: 24px;
         height: 70px;
@@ -707,10 +716,8 @@ body::-webkit-scrollbar-thumb {
         height: 540px;
     }
 
-    .section-one .project-img {
-        margin-top: 0%;
-        transform: scale(1);
-        height: 270px;
+    .first-section .project-img {
+        transform: scale(1.2);
     }
 
     .section-one .desctiption,
@@ -723,27 +730,27 @@ body::-webkit-scrollbar-thumb {
 
      .first-section .mobile-btn  {
         position: relative;
-        bottom: 45px;
+        bottom: 30px;
      }
 
      .section-five .mobile-btn {
         position: relative;
-        bottom: 35px;
+        bottom: 25px;
      }
 
      .section-four .mobile-btn {
         position: relative;
-        bottom: 10px;
+        bottom: 5px;
      }
 
      .section-three .mobile-btn {
         position: relative;
-        bottom: 12px;
+        bottom: 5px;
      }
 
      .section-two .mobile-btn {
         position: relative;
-        bottom: 25px;
+        bottom: 15px;
      }
 
      .section-four .desctiption {
@@ -823,4 +830,42 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media screen and (max-width: 480px) { }
+@media screen and (max-width: 420px) {
+    .section-four .project-img {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section-one .project-img {
+        transform: scale(1.1);
+    }
+
+    .section-four .project-img {
+        transform: scale(1);
+    }
+
+    .section-five .project-img {
+        transform: scale(1.25);
+    }
+
+    .first-section .mobile-btn {
+        bottom: 40px;
+    }
+
+    .section-two .mobile-btn {
+        bottom: 25px;
+    }
+
+    .section-three .mobile-btn {
+        bottom: 25px;
+    }
+
+    .section-four .mobile-btn {
+        bottom: 10px;
+    }
+
+    .section-five .mobile-btn {
+        bottom: 25px;
+    }
+ }
