@@ -116,6 +116,7 @@
 a {
     text-decoration: none !important;
     color: inherit;
+    -webkit-text-fill-color: inherit;
     all: unset;
 }
 
@@ -133,6 +134,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 640px;
     color: black;
+    -webkit-text-fill-color: black;
     background-color: white;
     position: relative;
 }
@@ -159,6 +161,7 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: normal;
     text-align: center;
     color: #161616;
+    -webkit-text-fill-color: #161616;
     padding-bottom: 60px;
 }
 
@@ -171,6 +174,7 @@ body::-webkit-scrollbar-thumb {
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
+    -webkit-text-fill-color: #161616;
     color: #161616;
     white-space: nowrap;
     padding-top: 15px;
@@ -186,6 +190,7 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: normal;
     text-align: center;
     color: #696969;
+    -webkit-text-fill-color: #696969;
     max-width: 650px;
     padding-top: 15px;
 }
@@ -204,6 +209,7 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: normal;
     text-align: center;
     color: #161616;
+    -webkit-text-fill-color: #161616;
     padding: 10px 30px 10px 30px;
     transition: background-color 0.3s ease-out, color 0.3s ease-out;
     cursor: pointer;
@@ -211,10 +217,12 @@ body::-webkit-scrollbar-thumb {
 
 .base-btn:focus {
     color: #000000;
+    -webkit-text-fill-color: #000000;
 }
 
 .base-btn:hover {
     color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
     background-color: #000000;
 }
 
@@ -231,6 +239,7 @@ body::-webkit-scrollbar-thumb {
     font-stretch: normal;
     line-height: 2.15;
     letter-spacing: normal;
+    -webkit-text-fill-color: #161616;
     color: #161616;
     padding-bottom: 16px;
     padding-top: 16px;
@@ -319,6 +328,7 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: normal;
     text-align: center;
     color: #161616;
+    color: #161616;
 }
 
 .lets-work .description {
@@ -329,6 +339,7 @@ body::-webkit-scrollbar-thumb {
     line-height: 1.75;
     letter-spacing: normal;
     text-align: center;
+    -webkit-text-fill-color: #696969;
     color: #696969;
     font-family: "Montserrat-Regular";
     padding-top: 15px;
@@ -401,6 +412,7 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: normal;
     text-align: left;
     color: #161616;
+    -webkit-text-fill-color: #161616;
     font-family: "Montserrat-SemiBold";
 }
 
@@ -418,6 +430,7 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: normal;
     text-align: center;
     color: #8f9a98;
+    -webkit-text-fill-color: #8f9a98;
     padding: 10px 30px 10px 30px;
     position: relative;
     top: 20px;
@@ -426,11 +439,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .content-btn:focus {
+    -webkit-text-fill-color: #8f9a98;
     color: #8f9a98;
 }
 
 .content-btn:hover {
     color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
     background-color: #000000;
 }
 
@@ -487,6 +502,7 @@ body::-webkit-scrollbar-thumb {
 
 .section-four .text {
     color: #ffffff;
+    -webkit-text-fill-color: #ffffff;
 }
 
 .section-four .project-img {
@@ -512,6 +528,7 @@ body::-webkit-scrollbar-thumb {
 .black-btn {
     background-color: #0c141d;
     color: #c4c9d0;
+    -webkit-text-fill-color: #c4c9d0;
 }
 
 .mobile-element {
