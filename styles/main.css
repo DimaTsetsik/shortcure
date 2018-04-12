@@ -180,11 +180,11 @@ body::-webkit-scrollbar-thumb {
     padding: 10px;
 }
 
-.social-list li a img {
+.social-list li a svg {
     transition: transform 0.25s ease-out;
 }
 
-.social-list li a:hover img {
+.social-list li a:hover svg {
     transform: scale(1.3);
 }
 
@@ -202,7 +202,7 @@ body::-webkit-scrollbar-thumb {
 
   .icons-behance {
     width: 24px;
-    height: 15px;
+    height: 18px;
     object-fit: contain;
   }
 
@@ -210,6 +210,31 @@ body::-webkit-scrollbar-thumb {
     width: 18px;
     height: 18px;
     object-fit: contain;
+  }
+
+  .icons-dribbble path,
+  .icons-behance path, 
+  .icons-insta path, 
+  .icons-fb path {
+    transition: fill 0.25s ease-out;
+    fill: #000000
+  }
+
+   a:hover .icons-dribbble path {
+    fill: #ea4c89 !important;
+  }
+
+  a:hover .icons-behance path {
+    fill: #1769ff !important;
+  }
+
+  a:hover .icons-insta path,
+  a:hover .icons-insta circle {
+    fill: #c13584 !important;
+  }
+
+  a:hover .icons-fb path {
+    fill: #3b5998 !important;
   }
 
 .content-block,
@@ -421,9 +446,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section-four .project-img {
-    height: 640px;
+    height: 520px;
     width: auto;
-    margin-top: -30px;
+    margin-top: 30px;
 }
 
 .section-four .text {
@@ -557,8 +582,16 @@ body::-webkit-scrollbar-thumb {
 	transform: translateY(0px);
 }
 
+.main-logo {
+    width: auto;
+    height: 52px;
+    object-fit: contain;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
 .section-five {
-    margin-top: 0;
+    margin-top: 24px;
 }
 
 @media screen and (max-width: 1550px) {
@@ -645,7 +678,7 @@ body::-webkit-scrollbar-thumb {
         margin-right: 16px;
         margin-left: 16px;
     }
-    
+
     .lets-work,
     .base-section {
         height: 450px
@@ -681,6 +714,10 @@ body::-webkit-scrollbar-thumb {
 
     .section-five .project-img {
         transform: scale(1.3);
+    }
+      
+    .section-four .project-img {
+        height: 335px;
     }
 }
 
@@ -765,7 +802,6 @@ body::-webkit-scrollbar-thumb {
 
     .section-four .project-img {
         transform: scale(1.25);
-        background-image: url(../images/velocy-image-mobile.png);
     }
 
     .section-five .project-img {
@@ -845,6 +881,10 @@ body::-webkit-scrollbar-thumb {
  
      .shortcute .text {
          font-size: 16px;
+     } 
+
+     .main-logo {
+        height: 40px;
      }
  }
 
@@ -900,6 +940,10 @@ body::-webkit-scrollbar-thumb {
     .lets-work .description {
         font-size: 16px;
     }
+
+    .main-logo {
+        height: 32px;        
+     }
 }
 
 @media screen and (max-width: 420px) {
