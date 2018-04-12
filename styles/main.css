@@ -498,6 +498,7 @@ body::-webkit-scrollbar-thumb {
     line-height: normal;
     text-align: left;
     color: #161616;
+    -webkit-text-fill-color: #161616;
 }
 
 .menu-list li a {
@@ -509,6 +510,7 @@ body::-webkit-scrollbar-thumb {
 .menu-list li a:hover,
 .menu-list li a:focus {
     color: #161616;
+    -webkit-text-fill-color: #161616;
 }
 
 .menu-logo span {
@@ -520,6 +522,7 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: normal;
     text-align: center;
     color: #161616;
+    -webkit-text-fill-color: #161616;
 }
 
 .desktop-menu .menu-content {
